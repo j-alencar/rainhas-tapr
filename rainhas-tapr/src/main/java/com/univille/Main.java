@@ -18,7 +18,6 @@ public class Main {
      * Sem argumentos, uma seed aleatória será gerada e impressa.
      */
     public static void main(String[] args) {
-        // Configurar a seed
         long seed;
         if (args.length > 0) {
             seed = Long.parseLong(args[0]);
@@ -37,7 +36,7 @@ public class Main {
         if (solucao != null) {
             imprimirTab(solucao);
         } else {
-            System.out.println("Nenhuma solução encontrada. Quase certamente há algo de errado o código.");
+            System.out.println("Nenhuma solução encontrada. Quase certamente há algo de errado com o código.");
         }
     }
 
