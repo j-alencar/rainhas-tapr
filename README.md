@@ -1,2 +1,15 @@
-﻿# rainhas-tapr
-https://www.notion.so/8-Rainhas-1d2624418d5a80d98989fd7fad106ca0?pvs=4
+# rainhas-tapr
+Este projeto implementa uma solução para o problema das 8 rainhas utilizando backtracking.
+
+## Execução
+
+### Com seed definida (reproduzível)
+```bash
+java Main 123456789
+```
+
+### Sem seed (aleatória)
+```bash
+java Main
+```
+A seed usada será impressa no console para referência futura.
